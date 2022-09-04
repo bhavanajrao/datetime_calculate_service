@@ -70,7 +70,7 @@ public class DaysBetweenController implements ErrorController {
         }
         catch(DateTimeParseException de) {
             logger.error("There was a DateTime format parsing exception ", de);
-            return "Please input the Dates in yyyy-mm-ddThh:mm:ss+/-hh:mm format (For egs: 2021-12-017T06:40:31+01:30 or 2021-12-017T06:40:31-01:30)";
+            return "Please input the Dates in yyyy-mm-ddThh:mm:ss[+|-]hh:mm format (For egs: 2021-12-017T06:40:31+01:30 or 2021-12-017T06:40:31-01:30)";
         }
         return String.valueOf(daysBetween);
     }

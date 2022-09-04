@@ -56,7 +56,7 @@ public class DaysBetweenConvertedToController {
             String daysBet=DaysBetweenController.calculateDaysWithTimezones(startDate,endDate);
             logger.info("The days between startDate and endDate is " + daysBet);
             if (daysBet.contains("format")) {
-                logger.info("The date was not is right format, the format should be yyyy-mm-ddThh:mm:ss+/-hh:mm");
+                logger.info("The date was not is right format, the format should be yyyy-mm-ddThh:mm:ss[+|-]hh:mm");
                 return daysBet;
             }
             days = Long.parseLong(daysBet);
