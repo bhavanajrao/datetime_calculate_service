@@ -105,11 +105,11 @@
         <li>REUEST PARAM 1 : startDate - pass a start datetime with timezone offset in yyyy-mm-ddThh:mm:ss[+|-]hh:mm format,
         <li>REQUEST PARAM 2 : endDate - pass an end datetime with timezone offset in yyyy-mm-ddThh:mm:ss[+|-]hh:mm format,  </li> </li>
         <li>REQUEST PARAM 3: convertTo - pass a unit of time you want to convert Number of days to, it can be either seconds, minutes, hours or years</li>
-        <li>REQUEST: http://{hostname}:{port}/daysBetween/convertedTo?startDate={start_date_in_yyyy-mm-ddThh:mm:ss_format}&endDate={end_date_in_yyyy-mm-ddThh:mm:ss_format}&convertTo=seconds|years|minutes|years</li>
-        <li>EXAMPLE 1 - Convert number of days between the datetime to seconds :http://localhost:8080/daysBetween/convertedTo?startDate=2021-12-01T06:40:31&endDate=2022-03-01T06:40:31&convertTo=seconds</li>
-        <li>EXAMPLE 2 - Convert number of days between the datetime to minutes :http://localhost:8080/daysBetween/convertedTo?startDate=2021-12-01T06:40:31&endDate=2022-03-01T06:40:31&convertTo=minutes</li>
-        <li>EXAMPLE 2 - Convert number of days between the datetime to hours :http://localhost:8080/daysBetween/convertedTo?startDate=2021-12-01T06:40:31&endDate=2022-03-01T06:40:31&convertTo=hours</li>
-        <li>EXAMPLE 2 - Convert number of days between the datetime to years :http://localhost:8080/daysBetween/convertedTo?startDate=2021-12-01T06:40:31&endDate=2022-03-01T06:40:31&convertTo=years</li>
+        <li>REQUEST: http://{hostname}:{port}/daysBetween/convertedTo?startDate={start_date_in_yyyy-mm-ddThh:mm:ss[+|-]hh:mm_format}&endDate={end_date_in_yyyy-mm-ddThh:mm:ss[+|-]hh:mm_format}&convertTo=[seconds|years|minutes|years]</li>
+        <li>EXAMPLE 1 - Convert number of days between the datetime to seconds :http://localhost:8080/daysBetween/convertedTo?startDate=2021-12-01T06:40:31-05:30&endDate=2022-03-01T06:40:31+05:30&convertTo=seconds</li>
+        <li>EXAMPLE 2 - Convert number of days between the datetime to minutes :http://localhost:8080/daysBetween/convertedTo?startDate=2021-12-01T06:40:31-01:30&endDate=2022-03-01T06:40:31+01:30&convertTo=minutes</li>
+        <li>EXAMPLE 2 - Convert number of days between the datetime to hours :http://localhost:8080/daysBetween/convertedTo?startDate=2021-12-01T06:40:31+08:00&endDate=2022-03-01T06:40:31-08:00convertTo=hours</li>
+        <li>EXAMPLE 2 - Convert number of days between the datetime to years :http://localhost:8080/daysBetween/convertedTo?startDate=2021-12-01T06:40:31+00:00&endDate=2022-03-01T06:40:31-00:00&convertTo=years</li>
     </ul>
     <p></p>
 </ul>
