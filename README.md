@@ -18,7 +18,7 @@
 <ul>
     <li>Download the project folder in the local machine: git clone https://github.com/bhavanajrao/datetime_calculate_service.git</li>
     <li>cd datetime_calculate_service</li>
-    <li>Set JAVA_HOME to java8: export JAVA_HOME {java_8_folder_path}</li>
+    <li>Set all the env variables such as JAVA_HOME, MAVEN_HOME, M2_HOME to the respective paths</li>
     <li>Download all the needed libraries: mvn clean package</li>
     <li>Go to target folder: cd ./target </li>
     <li>run the springboot jar file: java -jar spring-boot-0.0.1-SNAPSHOT.jar </li>
