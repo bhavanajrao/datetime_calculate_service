@@ -13,26 +13,20 @@
     <h1>Please check the Request URL</h1>
 </main>
 <ul>
-    <li><b>Calculate the Number of days between two Datetime:</b> With This API you can calculate the number of days between two datetime which is passed as request params(startDate and endDate)</li>
+    <li><b>To calculate the Number of days between two Datetime:</b> </li>
     <ul>
-        <li>REQUEST URL: http://{hostname}:{port}/daysBetween </li>
-        <li>REQUEST PARAM 1 : startDate - pass a start datetime in yyyy-mm-ddThh:mm:ss format,</li>
-        <li>REQUEST PARAM 2 : endDate - pass an end datetime in yyyy-mm-ddThh:mm:ss format,  </li>
         <li>REQUEST: http://{hostname}:{port}/daysBetween?startDate={start_date_in_yyyy-mm-ddThh:mm:ss_format}&endDate={end_date_in_yyyy-mm-ddThh:mm:ss_format}</li>
         <li>EXAMPLE:http://localhost:8080/daysBetween?startDate=2021-12-01T06:40:31&endDate=2022-03-01T06:40:31</li>
     </ul>
     <p></p>
-    <li><b>Calculate the Number of days between two Datetime with timezone offset :</b>With This API you can calculate the number of days between two datetime with timezone offset which is passed as request params(startDate and endDate)</li>
+    <li><b>To calculate the Number of days between two Datetime with timezone offset :</b></li>
     <ul>
-        <li>REQUEST URL: http://{hostname}:{port}/daysBetween/withTimezones </li>
-        <li>REQUEST PARAM 1 : startDate - pass a start datetime with timezone offset in yyyy-mm-ddThh:mm:ss[+|-]hh:mm format,</li>
-        <li>REQUEST PARAM 2 : endDate - pass an end datetime with timezone offset in yyyy-mm-ddThh:mm:ss[+|-]hh:mm format,  </li>
         <li>REQUEST: http://{hostname}:{port}/daysBetween?startDate={start_date_in_yyyy-mm-ddThh:mm:ss[+|-]hh:mm_format}&endDate={end_date_in_yyyy-mm-ddThh:mm:ss[+|-]hh:mm_format}</li>
         <li>EXAMPLE:http://localhost:8080/weeksBetween/withTimezones?startDate=2021-12-01T06:40:31-05:30&endDate=2022-03-01T06:40:31+05:30</li>
     </ul>
     <p></p>
-    <li><b>Calculate the Number of weekdays between two Datetime:</b> With This API you can calculate the number of weekdays (i.e days from Monday to friday) between two datetime which is passed as request params(startDate and endDate)</li>
-    <ul>
+    <li><b>To calculate the Number of weekdays between two Datetime:</b></li>
+        <ul>
         <li>REQUEST URL: http://{hostname}:{port}/weekdaysBetween </li>
         <li>REQUEST PARAM 1 : startDate - pass a start datetime in yyyy-mm-ddThh:mm:ss format,</li>
         <li>REQUEST PARAM 2 : endDate - pass an end datetime in yyyy-mm-ddThh:mm:ss format,  </li>
@@ -40,42 +34,26 @@
         <li>EXAMPLE:http://localhost:8080/daysBetween?startDate=2021-12-01T06:40:31&endDate=2022-03-01T06:40:31</li>
     </ul>
     <p></p>
-    <li><b>Calculate the Number of weekdays between two Datetime with timezone offset :</b> With This API you can calculate the number of weekdays (i.e days from Monday to friday) between two datetime with timezone offset which is passed as request params(startDate and endDate)</li>
-    <ul>
-        <li>REQUEST URI: http://{hostname}:{port}/weekdaysBetween/withTimezones </li>
-        <li>REQUEST PARAM 1 : startDate - pass a start datetime with timezone offset in yyyy-mm-ddThh:mm:ss[+|-]hh:mm format,</li>
-        <li>REQUEST PARAM 2 : endDate - pass an end datetime with timezone offset in yyyy-mm-ddThh:mm:ss[+|-]hh:mm format,  </li>
+    <li><b>To calculate the Number of weekdays between two Datetime with timezone offset :</b></li>
+        <ul>
         <li>REQUEST: http://{hostname}:{port}/weekdaysBetween?startDate={start_date_in_yyyy-mm-ddThh:mm:ss[+|-]hh:mm_format}&endDate={end_date_in_yyyy-mm-ddThh:mm:ss[+|-]hh:mm_format}</li>
         <li>EXAMPLE:http://localhost:8080/weeksBetween/withTimezones?startDate=2021-12-01T06:40:31-05:30&endDate=2022-03-01T06:40:31+05:30</li>
     </ul>
     <p></p>
-    <li><b>Calculate the Number of weeks between two Datetime:</b> With This API you can calculate the number of full weeks between two datetime (i.e 7 days from the start date) which is passed as request params(startDate and endDate)</li>
+    <li><b>To calculate the Number of weeks between two Datetime:</b></li>
     <ul>
-        <li>REQUEST URI: http://{hostname}:{port}/weeksBetween </li>
-        <li>REQUEST PARAM 1 : startDate - pass a start datetime in yyyy-mm-ddThh:mm:ss format,</li>
-        <li>REQUEST PARAM 2 : endDate - pass an end datetime in yyyy-mm-ddThh:mm:ss format,  </li>
         <li>REQUEST: http://{hostname}:{port}/weekBetween?startDate={start_date_in_yyyy-mm-ddThh:mm:ss_format}&endDate={end_date_in_yyyy-mm-ddThh:mm:ss_format}</li>
         <li>EXAMPLE:http://localhost:8080/daysBetween?startDate=2021-12-01T06:40:31&endDate=2022-03-01T06:40:31</li>
     </ul>
     <p></p>
-    <li><b>Calculate the Number of weeks between two Datetime with timezone offset :</b> With This API you can calculate the number of weeks between two datetime with timezone offset (i.e 7 days from the start date) which is passed as request params(startDate and endDate)</li>
-    <ul>
-        <li>REQUEST URI: http://{hostname}:{port}/weeksBetween/withTimezones </li>
-        <li>REQUEST PARAM 1 : startDate - pass a start datetime with timezone offset in yyyy-mm-ddThh:mm:ss[+|-]hh:mm format,</li>
-        <li>REQUEST PARAM 2 : endDate - pass an end datetime with timezone offset in yyyy-mm-ddThh:mm:ss[+|-]hh:mm format,  </li>
+    <li><b>To calculate the Number of weeks between two Datetime with timezone offset :</b></li>
+        <ul>
         <li>REQUEST: http://{hostname}:{port}/weeksBetween?startDate={start_date_in_yyyy-mm-ddThh:mm:ss[+|-]hh:mm_format}&endDate={end_date_in_yyyy-mm-ddThh:mm:ss[+|-]hh:mm_format}</li>
         <li>EXAMPLE:http://localhost:8080/weeksBetween/withTimezones?startDate=2021-12-01T06:40:31-05:30&endDate=2022-03-01T06:40:31+05:30</li>
     </ul>
     <p></p>
-    <li><b>Calculate Number of days between two datetime and then convert it to either seconds, minutes, hours or years:</b>
-        With This API you can calculate the number of days between two datetime which is passed as reuest params(startDate and endDate)
-        and then pass one more request param convertTo to convert the number of days into seconds, minutes, hours or years between the two datetime
-    </li>
+    <li><b>To calculate Number of days between two datetime and then convert it to either seconds, minutes, hours or years:</b></li>
     <ul>
-        <li>REQUEST URI: http://{hostname}:{port}/daysBetween/convertedTo </li>
-        <li>REUEST PARAM 1 : startDate - pass a start datetime in yyyy-mm-ddThh:mm:ss format,
-        <li>REQUEST PARAM 2 : endDate - pass an end datetime in yyyy-mm-ddThh:mm:ss format,  </li>
-        <li>REQUEST PARAM 3: convertTo - pass a unit of time you want to convert Number of days to, it can be either seconds, minutes, hours or years</li>
         <li>REQUEST: http://{hostname}:{port}/daysBetween/convertedTo?startDate={start_date_in_yyyy-mm-ddThh:mm:ss_format}&endDate={end_date_in_yyyy-mm-ddThh:mm:ss_format}&convertTo=seconds|years|minutes|years</li>
         <li>EXAMPLE 1 - Convert number of days between the datetime to seconds :http://localhost:8080/daysBetween/convertedTo?startDate=2021-12-01T06:40:31&endDate=2022-03-01T06:40:31&convertTo=seconds</li>
         <li>EXAMPLE 2 - Convert number of days between the datetime to minutes :http://localhost:8080/daysBetween/convertedTo?startDate=2021-12-01T06:40:31&endDate=2022-03-01T06:40:31&convertTo=minutes</li>
@@ -83,15 +61,9 @@
         <li>EXAMPLE 2 - Convert number of days between the datetime to years :http://localhost:8080/daysBetween/convertedTo?startDate=2020-12-01T06:40:31&endDate=2022-03-01T06:40:31&convertTo=years</li>
     </ul>
     <p></p>
-    <li><b>Calculate Number of days between two datetime with timezone offset and then convert it to either seconds, minutes, hours or years:</b>
-        With This API you can calculate the number of days between two datetime with timezone offset which is passed as request params(startDate and endDate)
-        and then pass one more request param convertTo to convert the number of days into seconds, minutes, hours or years between the two datetime
+    <li><b>To calculate Number of days between two datetime with timezone offset and then convert it to either seconds, minutes, hours or years:</b>
     </li>
     <ul>
-        <li>REQUEST URI: http://{hostname}:{port}/daysBetween/convertedTo </li>
-        <li>REUEST PARAM 1 : startDate - pass a start datetime with timezone offset in yyyy-mm-ddThh:mm:ss[+|-]hh:mm format,
-        <li>REQUEST PARAM 2 : endDate - pass an end datetime with timezone offset in yyyy-mm-ddThh:mm:ss[+|-]hh:mm format,  </li> </li>
-        <li>REQUEST PARAM 3: convertTo - pass a unit of time you want to convert Number of days to, it can be either seconds, minutes, hours or years</li>
         <li>REQUEST: http://{hostname}:{port}/daysBetween/convertedTo?startDate={start_date_in_yyyy-mm-ddThh:mm:ss[+|-]hh:mm_format}&endDate={end_date_in_yyyy-mm-ddThh:mm:ss[+|-]hh:mm_format}&convertTo=[seconds|years|minutes|years]</li>
         <li>EXAMPLE 1 - Convert number of days between the datetime to seconds :http://localhost:8080/daysBetween/convertedTo?startDate=2021-12-01T06:40:31-05:30&endDate=2022-03-01T06:40:31+05:30&convertTo=seconds</li>
         <li>EXAMPLE 2 - Convert number of days between the datetime to minutes :http://localhost:8080/daysBetween/convertedTo?startDate=2021-12-01T06:40:31-01:30&endDate=2022-03-01T06:40:31+01:30&convertTo=minutes</li>
